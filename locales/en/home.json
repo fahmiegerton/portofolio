@@ -12,7 +12,9 @@
     "email": "Copy email",
     "cv": "Download resume",
     "meeting": "Schedule a meeting",
-    "buy_this_template": "Buy this template"
+    "message": "Get in touch with me",
+    "copy_message": "Copy Link",
+    "see_project": "See More"
   },
   "about": {
     "part1": "Multidisciplinary developer and artistic director based in Nice, France.",

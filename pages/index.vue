@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import socials from '~/data/socials'
+import masonry from '~/data/masonry'
+import { EnvelopeIcon, ChatBubbleLeftEllipsisIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
 
 const appConfig = useAppConfig()
 const { t, locale } = useI18n()
@@ -106,6 +108,77 @@ defineOgImage({
 							  :fontControlled="false"
 							  :aria-label="social.name + ' logo'" />
 			</NuxtLink>
+		</div>
+
+		<Divider />
+
+		<h1 class="text-3xl font-extrabold text-center my-7 text-zinc-950 text-stroke shadow-cyan-300"
+			 style="--stagger: 11;"
+			 data-animate>here's some of my work
+		</h1>
+
+		<div class="flex items-center justify-center mx-10 mb-16">
+			<div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+				<img class="h-auto max-w-full bg-white rounded-lg"
+					  v-for="(img, index) in masonry"
+					  :key="index"
+					  :style="`--stagger: ${12 + (index + 1)};`"
+					  data-animate
+					  :src="img.src"
+					  :alt="img.alt">
+			</div>
+		</div>
+
+		<div class="flex items-center justify-center mx-auto"
+			  style="--stagger: 30;"
+			  data-animate>
+			<div class="px-3 py-2 my-5 rounded-md bg-cyan-500">
+				<NuxtLink class="relative flex items-center justify-center gap-2 transition-all duration-200 text-zinc-950"
+							 to="/">
+					{{ $t('home.hero.see_project') }}
+					<ArrowRightIcon class="text-zinc-950 size-5" />
+				</NuxtLink>
+			</div>
+		</div>
+
+		<Divider />
+
+		<div class="flex flex-col items-center justify-center gap-4 mt-8 sm:gap-2">
+			<h1 class="text-3xl font-extrabold text-center mb-7 text-zinc-950 text-stroke shadow-cyan-300"
+				 style="--stagger: 31;"
+				 data-animate>
+				Mari saling kontak :)
+			</h1>
+
+			<div class="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-2">
+				<UTooltip :text="$t('home.hero.email')"
+							 :shortcuts="['CTRL', 'O']">
+					<div class="px-3 py-2 rounded-md bg-cyan-500"
+						  style="--stagger: 32;"
+						  data-animate>
+						<NuxtLink class="relative flex items-center justify-center gap-2 transition-all duration-200 text-zinc-950"
+									 to="/">
+							{{ $t('home.hero.contact') }}
+							<EnvelopeIcon class="text-zinc-950 size-5" />
+						</NuxtLink>
+					</div>
+				</UTooltip>
+
+				<div class="flex gap-4 sm:gap-2"
+					  style="--stagger: 33;"
+					  data-animate>
+					<UTooltip :text="$t('home.hero.copy_message')"
+								 :shortcuts="['CTRL', 'C']">
+						<div class="px-3 py-2 rounded-md bg-cyan-500">
+							<NuxtLink class="relative flex items-center justify-center gap-2 transition-all duration-200 text-zinc-950"
+										 to="https://wa.me/6285748169246">
+								{{ $t('home.hero.message') }}
+								<ChatBubbleLeftEllipsisIcon class="text-zinc-950 size-5" />
+							</NuxtLink>
+						</div>
+					</UTooltip>
+				</div>
+			</div>
 		</div>
 	</section>
 </template>

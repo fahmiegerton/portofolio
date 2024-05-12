@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.12.1",
+    "nuxt": "^3.11.2"
+  },
+  "devDependencies": {
+    "@heroicons/vue": "^2.1.3",
+    "@hrcd/eslint-config": "^1.0.0",
+    "@nuxt/devtools": "^1.3.1",
+    "@nuxt/eslint-config": "^0.3.12",
+    "@nuxt/image": "^1.7.0",
+    "@nuxt/ui": "^2.16.0",
+    "@nuxthq/studio": "^1.0.15",
+    "@nuxtjs/i18n": "next",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
+    "@vue/language-plugin-pug": "^2.0.17",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.2.0",
+    "flowbite": "^2.3.0",
+    "nuxt-og-image": "^3.0.0-rc.53",
+    "nuxt-svgo": "^4.0.1",
+    "pug": "^3.0.2",
+    "resend": "^3.2.0",
+    "sass": "^1.77.1",
+    "sitemap": "^7.1.1",
+    "tailwindcss": "^3.4.3"
+  }
+}

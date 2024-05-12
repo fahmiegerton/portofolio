@@ -33,13 +33,10 @@ const currentAvailability = computed(() => {
 
 <template>
 	<div class="flex items-center rounded-full"
-		  :class="{ 'border border-white/10 bg-zinc-900/80 px-5 py-2 backdrop-blur-3xl': background }"">
-		<span class="
-		  relative
-		  flex
-		  size-3">
-		<span class="absolute inline-flex rounded-full opacity-75 size-full animate-ping"
-				:class="currentAvailability.bgColor" />
+		  :class="{ 'border border-white/10 bg-zinc-900/80 px-5 py-2 backdrop-blur-3xl': background }">
+		<span class="relative flex  size-3">
+			<span class="absolute inline-flex rounded-full opacity-75 size-full animate-ping"
+					:class="currentAvailability.bgColor" />
 		</span>
 		<span class="ml-2 text-sm font-medium"
 				:class="currentAvailability.textColor"> {{ $t("availability." + currentAvailability.status) }}</span>

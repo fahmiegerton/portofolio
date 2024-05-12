@@ -1,10 +1,10 @@
 <template>
-	<div class="mt-6 pb-20">
+	<div class="pb-20 mt-6">
 		<Divider />
-		<footer class="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 py-6">
+		<footer class="flex flex-col items-center gap-4 px-4 py-6 mx-auto max-w-7xl">
 			<Logo :size="8" />
-			<span class="text-center text-sm text-muted">
-				©️ {{ new Date().getFullYear() }}, {{ useAppConfig().footerName }} - {{ $t("seo.all_rights_reserved") }}
+			<span class="text-sm text-center text-muted">
+				&copy; {{ new Date().getFullYear() }}, {{ useAppConfig().footerName }} - {{ $t("seo.all_rights_reserved") }}
 			</span>
 		</footer>
 	</div>

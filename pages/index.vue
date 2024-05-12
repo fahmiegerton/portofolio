@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import socials from '~/data/socials'
+
 const appConfig = useAppConfig()
 const { t, locale } = useI18n()
 
@@ -35,26 +37,26 @@ defineOgImage({
 </script>
 
 <template>
-	<section class="relative">
+	<section class="relative px-7 md:px-2">
 		<!-- grid -->
-		<!-- <div
-			  class="pointer-events-none absolute inset-0 bg-center bg-grid-white/10 bg-grid-16 [mask-image:radial-gradient(white,transparent_85%)]" /> -->
+		<div
+			  class="pointer-events-none absolute inset-0 bg-center bg-grid-white/10 bg-grid-16 [mask-image:radial-gradient(white,transparent_85%)]" />
 
 		<div class="relative flex flex-col justify-center gap-4 px-4 py-3 mx-auto max-w-7xl sm:px-28 lg:px-44 lg:py-6">
-			<span class="font-black leading-none text-8xl text-cyan-300"
+			<span class="text-6xl font-black leading-none md:text-8xl text-cyan-300"
 					style="--stagger: 2; --delay: 10ms"
 					data-animate>Halo👋</span>
-			<span class="font-black leading-none transition text-8xl text-zinc-950 text-stroke shadow-cyan-300"
+			<span class="text-6xl font-black leading-none transition md:text-8xl text-zinc-950 text-stroke shadow-cyan-300"
 					style="--stagger: 3;"
 					data-animate>Kawan</span>
-			<span class="font-black leading-none text-8xl text-cyan-300"
+			<span class="text-6xl font-black leading-none md:text-8xl text-cyan-300"
 					style="--stagger: 4;"
 					data-animate>Selamat</span>
-			<span class="text-6xl font-black leading-none transition text-zinc-950 text-stroke shadow-cyan-300"
+			<span class="text-3xl font-black leading-none transition lg:text-6xl text-zinc-950 text-stroke shadow-cyan-300"
 					style="--stagger: 6;"
 					data-animate>Datang
 				di</span>
-			<span class="font-black leading-none underline text-8xl text-cyan-300"
+			<span class="text-4xl font-black leading-none underline md:text-8xl text-cyan-300"
 					style="--stagger: 7;"
 					data-animate>Portofolio Saya ;)</span>
 
@@ -83,8 +85,27 @@ defineOgImage({
 			<HomeProfilePicture />
 		</div>
 
-		<div class="flex items-center justify-center mt-4">
+		<div class="flex items-center justify-center mt-4"
+			  style="--stagger: 9;"
+			  data-animate>
 			<SettingsAvailability background />
+		</div>
+
+		<div class="flex items-center justify-center gap-6 my-7 sm:gap-10"
+			  style="--stagger: 10;"
+			  data-animate>
+			<NuxtLink v-for="social in socials"
+						 :key="social.name"
+						 :to="social.link"
+						 target="_blank"
+						 class="flex items-center justify-center"
+						 :aria-label="`Pergi ke profil ${social.name}`">
+				<component :is="social.logo"
+							  class="transition-all duration-300 social-item size-6 text-muted hover:text-main"
+							  :alt="social.name + ' logo'"
+							  :fontControlled="false"
+							  :aria-label="social.name + ' logo'" />
+			</NuxtLink>
 		</div>
 	</section>
 </template>

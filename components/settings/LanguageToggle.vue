@@ -16,7 +16,7 @@ watch(current, (newLocale) => {
 </script>
 
 <template>
-  <div class="flex items-center gap-3 px-3 py-1 border rounded-lg z-99 border-white/10 bg-zinc-900/90 backdrop-blur-xl">
+  <div class="z-50 flex items-center gap-3 px-3 py-1 border rounded-lg border-white/10 bg-zinc-900/90 backdrop-blur-xl">
     <ClientOnly>
       <div v-for="locale in locales"
            :key="locale"

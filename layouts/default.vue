@@ -17,7 +17,7 @@
 		<div class="sm:mt-[30px]">
 			<slot />
 		</div>
-		<LayoutNavbar class="fixed bottom-0 z-50 flex" />
+		<LayoutNavbar class="fixed bottom-0 z-40 flex" />
 		<LayoutFooter />
 	</div>
 </template>

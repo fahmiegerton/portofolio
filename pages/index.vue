@@ -70,12 +70,14 @@ defineOgImage({
 				<h2 class="mx-auto mt-6 text-lg text-center font-extralight text-white/60"
 					 style="--stagger: 8;"
 					 data-animate>
-					Developer, kadang fotografer, kadang desain grafis, kadang admin, kadang kidding :). Orangnya ramah dan
-					santai, jarang
+					Developer (wengdev, bukan yang buat rumah), kadang buat/mainten server, kadang desain grafis, kadang
+					admin, kadang anter barang, kadang kidding :). Orangnya ramah dan santai, jarang
 					gigit kecuali makanan enak, kalau mau kolaborasi orangnya mau kok walaupun agak malu hehe. Orangnya
 					senang belajar hal baru, termasuk portofolio ini yang menggunakan Nuxt 3 dan Bun. Walaupun hidup orangnya
-					penuh dengan ke random an, tapi orangnya bakal effort banget untuk membantu sesama rekan jika butuh
-					bantuan, gak perlu disuruh juga bakal ngebantu kok ;).
+					penuh dengan ke random an, tapi orangnya sopan dan bakal belajar dari kesalahan dan kekurangan. orangnya
+					juga effort banget untuk membantu sesama rekan jika butuh bantuan, gak perlu disuruh juga bakal ngebantu
+					kok ;). <br><i>Catatan : Walaupun orangnya orang IT, tapi gak bisa baikin tv, kulkas, mejikom, printer,
+						dan ac mu.</i>
 				</h2>
 			</div>
 		</div>

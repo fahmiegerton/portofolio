@@ -58,7 +58,7 @@ defineOgImage({
 					style="--stagger: 6;"
 					data-animate>Datang
 				di</span>
-			<span class="text-4xl font-black leading-none underline md:text-8xl text-cyan-300"
+			<span class="text-3xl font-black leading-none underline md:text-8xl text-cyan-300"
 					style="--stagger: 7;"
 					data-animate>Portofolio Saya ;)</span>
 

@@ -3,11 +3,11 @@
   "hero": {
     "job": {
       "part1": "Web developer",
-      "part2": "Art director"
+      "part2": "Graphic Design"
     },
     "part1": "The efficiency of one, the talent of three",
     "part2": "Why look elsewhere?",
-    "subtitle": "Developer, art director and photographer, I fuse technicality and aestheticism to bring a unique dimension to my work. Passionate about beauty, I give life to projects that captivate and convert",
+    "subtitle": "Developer, Graphic Design and photographer, I fuse technicality and aestheticism to bring a unique dimension to my work. Passionate about beauty, I give life to projects that captivate and convert",
     "contact": "Let's work together",
     "email": "Copy email",
     "cv": "Download resume",
@@ -17,9 +17,8 @@
     "see_project": "See More"
   },
   "about": {
-    "part1": "Multidisciplinary developer and artistic director based in Nice, France.",
-    "part2": "With over 6 years of experience in the field, I take pride in delivering visually stunning, user-friendly and high-performance websites and applications that exceed expectations.",
-    "part3": "Whether it's collaborating with cross-functional teams or leading design projects, my attention to detail and dedication to excellence has earned me a reputation for delivering exceptional results."
+    "full": "Hey there! I’m Arif Fahmi, a full-stack developer who loves turning complex problems into elegant solutions. Whether it’s building robust backends with Laravel and FilamentPHP or creating sleek, user-friendly interfaces with Vue.js and Inertia.js, I thrive on making the web a better place, one line of code at a time. When I’m not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or debugging my way through life’s little challenges. My GitHub is a testament to my passion for clean code (and my ongoing quest to make it more efficient), and my LinkedIn showcases my journey through the ever-evolving world of web development. Ready to dive into my world of code, creativity, and a sprinkle of humor? Let’s build something amazing together!",
+    "line2": "Ready to dive into my world of code, creativity, and a sprinkle of humor? Let’s build something amazing together!"
   },
   "letter": {
     "part1": "Front-end engineer based in Nice, France. With over 5 years of experience building creative websites, interactive experiences and custom web software.",

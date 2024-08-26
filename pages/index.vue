@@ -154,7 +154,7 @@ defineOgImage({
 						  style="--stagger: 32;"
 						  data-animate>
 						<NuxtLink class="relative flex items-center justify-center gap-2 transition-all duration-200 text-zinc-950"
-									 to="/">
+									 to="mailto:arif.fahmirridho@outlook.com">
 							{{ $t('home.hero.contact') }}
 							<EnvelopeIcon class="text-zinc-950 size-5" />
 						</NuxtLink>

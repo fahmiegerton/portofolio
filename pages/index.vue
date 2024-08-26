@@ -27,7 +27,7 @@ useSeoMeta({
 	twitterCard: 'summary_large_image',
 	twitterSite: appConfig.twitterUsername,
 	twitterCreator: appConfig.twitterUsername,
-	twitterImage: "https://media.licdn.com/dms/image/C5116AQH-J4dbSnGqmw/profile-displaybackgroundimage-shrink_200_800/0/1569888725370?e=2147483647&v=beta&t=4BiepGGGv7fGNNp6IgZxcQ0Oc24_KjOmqjg1YxrugDA"
+	twitterImage: "https://pbs.twimg.com/profile_banners/1968921062/1560057871/1500x500"
 })
 
 defineOgImage({
@@ -111,7 +111,8 @@ defineOgImage({
 
 		<h1 class="text-3xl font-extrabold text-center my-7 text-zinc-950 text-stroke shadow-cyan-300"
 			 style="--stagger: 11;"
-			 data-animate>here's some of my work
+			 data-animate>
+			{{ $t('home.gallery.title') }}
 		</h1>
 
 		<div class="flex items-center justify-center mx-10 mb-16">

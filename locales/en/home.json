@@ -20,6 +20,9 @@
     "full": "Hey there! I’m Arif Fahmi, a full-stack developer who loves turning complex problems into elegant solutions. Whether it’s building robust backends with Laravel and FilamentPHP or creating sleek, user-friendly interfaces with Vue.js and Inertia.js, I thrive on making the web a better place, one line of code at a time. When I’m not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or debugging my way through life’s little challenges. My GitHub is a testament to my passion for clean code (and my ongoing quest to make it more efficient), and my LinkedIn showcases my journey through the ever-evolving world of web development. Ready to dive into my world of code, creativity, and a sprinkle of humor? Let’s build something amazing together!",
     "line2": "Ready to dive into my world of code, creativity, and a sprinkle of humor? Let’s build something amazing together!"
   },
+  "gallery": {
+    "title": "here's some of my work"
+  },
   "letter": {
     "part1": "Front-end engineer based in Nice, France. With over 5 years of experience building creative websites, interactive experiences and custom web software.",
     "part2": "I specialize in programming with Nuxt, although I have extensive full-stack development experience. I love writing code, but I also have experience in UX consulting, with a keen eye for detail and an understanding of interaction design and best practices."

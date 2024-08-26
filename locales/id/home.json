@@ -20,6 +20,9 @@
 		"full": "Halo! Perkenalkan nama saya Arif Fahmi, seorang pengembala full-stack yang senang mengubah masalah kompleks menjadi solusi elegan ✨. Baik itu membangun backend dengan Laravel dan FilamentPHP atau membuat antarmuka yang ramping dan user-friendly dengan Vue.js dan Inertia.js, saya bersemangat untuk membuat web menjadi tempat yang lebih baik, satu baris kode pada satu waktu. Ketika saya tidak sedang coding, Anda bisa menemukan saya menjelajahi tren teknologi terbaru, berkontribusi pada proyek open-source, atau debugging tantangan kecil dalam hidup. GitHub saya adalah bukti dari hasrat saya untuk kode yang bersih (dan pencarian saya yang terus-menerus untuk membuatnya lebih efisien), dan LinkedIn saya menunjukkan perjalanan saya melalui dunia pengembangan web yang terus berkembang.",
 		"line2": "Mari kita bangun sesuatu yang luar biasa bersama dengan kreativitas yang keren!"
 	},
+	"gallery": {
+		"title": "here's some of my work"
+	},
 	"letter": {
 		"part1": "Front-end engineer based in Nice, France. With over 5 years of experience building creative websites, interactive experiences and custom web software.",
 		"part2": "I specialize in programming with Nuxt, although I have extensive full-stack development experience. I love writing code, but I also have experience in UX consulting, with a keen eye for detail and an understanding of interaction design and best practices."
